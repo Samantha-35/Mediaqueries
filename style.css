@@ -1,19 +1,41 @@
 
-
-@media (max-width: 410px) {
-    body{
-        background-color: red;
-    }
+body{
+    background-color: red;
+    font-size: 5px;
 }
 
-@media (min-width: 411px) {
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    
+}
+#small{
+    width: 100vw;
+    height: auto;
+}
+
+@media (min-width: 411px) and (max-width: 767px){
     body { 
         background:green; 
+        font-size: 20px;
+        flex-direction: row;
     }
+    /* #small {display: none;}
+    #large {display: none;} */
 
   }
+
   @media (min-width: 768px) {
     body { 
-        background: blue;
-      }
+        background:blue; 
+        font-size: 30px;
+        display: flex;
+
+    }
+    /* #small {display: none;}
+    #medium {display: none;} */
   }
