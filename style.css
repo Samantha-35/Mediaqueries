@@ -22,8 +22,22 @@ main{
     body { 
         background:green; 
         font-size: 20px;
-        flex-direction: row;
     }
+    main{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    #small{
+        width: 33vw;
+    }
+    #medium{
+        width:66vw;
+    }
+    #large{
+        width: 100vw;
+    }
+    
     /* #small {display: none;}
     #large {display: none;} */
 
